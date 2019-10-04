@@ -4,6 +4,7 @@ import 'storybook-chromatic';
 
 import { GlobalStyle } from '../src/shared/global';
 
+addDecorator(withA11y);
 addDecorator(story => (
 	<>
 		<GlobalStyle />
