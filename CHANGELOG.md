@@ -2,6 +2,19 @@
 
 #### ⚠️  Pushed to master
 
+- Build before releasing in ci.  ([@Beardles](https://github.com/Beardles))
+- Set up for auto deploy.  ([@Beardles](https://github.com/Beardles))
+
+#### Authors: 1
+
+- John Beadles ([@Beardles](https://github.com/Beardles))
+
+---
+
+# v0.1.1 (Fri Oct 04 2019)
+
+#### ⚠️  Pushed to master
+
 - Set up for auto deploy.  ([@Beardles](https://github.com/Beardles))
 
 #### Authors: 1
