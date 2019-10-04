@@ -18,7 +18,13 @@
 		"storybook": "start-storybook -p 9009 -s public",
 		"build-storybook": "build-storybook -s public",
 		"build-storybook-docs": "build-storybook -s public --docs",
-		"chromatic": "CHROMATIC_APP_CODE=mls88parko chromatic"
+		"chromatic": "CHROMATIC_APP_CODE=mls88parko chromatic",
+		"release": "auto shipit"
+	},
+	"babel": {
+		"presets": [
+			"react-app"
+		]
 	},
 	"eslintConfig": {
 		"extends": "react-app"
