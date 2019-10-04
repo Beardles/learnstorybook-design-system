@@ -1,7 +1,7 @@
 {
-	"name": "learnstorybook-design-system",
+	"name": "beardles-learnstorybook-design-system",
 	"version": "0.1.0",
-	"private": true,
+	"private": false,
 	"dependencies": {
 		"polished": "^3.4.1",
 		"prop-types": "^15.7.2",
@@ -12,7 +12,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"build": "BABEL_ENV=production babel src -d dist",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"storybook": "start-storybook -p 9009 -s public",
@@ -36,6 +36,7 @@
 		]
 	},
 	"devDependencies": {
+		"@babel/cli": "^7.6.2",
 		"@storybook/addon-a11y": "^5.2.1",
 		"@storybook/addon-actions": "^5.2.1",
 		"@storybook/addon-docs": "^5.2.1",
@@ -44,7 +45,13 @@
 		"@storybook/addon-storysource": "^5.2.1",
 		"@storybook/addons": "^5.2.1",
 		"@storybook/react": "^5.2.1",
+		"auto": "^7.7.0",
 		"prettier": "^1.18.2",
 		"storybook-chromatic": "^3.0.0"
-	}
+	},
+	"description": "Learn Storybook design systemm",
+	"main": "dist/index.js",
+	"repository": "https://github.com/beardles/learnstorybook-design-system.git",
+	"author": "John Beadles <jbeardles@gmail.com>",
+	"license": "MIT"
 }

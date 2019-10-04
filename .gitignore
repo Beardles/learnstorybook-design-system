@@ -7,10 +7,11 @@
 
 # testing
 /coverage
-storybook-static
 
 # production
 /build
+storybook-static
+dist
 
 # misc
 .DS_Store
@@ -22,3 +23,5 @@ storybook-static
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.env
